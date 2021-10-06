@@ -13,9 +13,9 @@ Class VueEquipes{
 			$id = $element['id'];
 			$str = $element['id'].$element['nom'];
 			echo "<a href= index.php?module=mod_equipe&action=details&id=".$id.">".$str."</a>";
-			echo "</br>";	
-		
-		} 
+			echo "</br>";
+
+		}
     }
 
     function afficherdetails($arr){
